@@ -1,8 +1,8 @@
 #--------------------------------------------------------------------------------
 # Values for this workshop - EDIT THIS SECTION.
 #--------------------------------------------------------------------------------
-workshop_repo   : "http://github.com/swcarpentry/workshop-template"
-workshop_site   : "http://swcarpentry.github.io/workshop-template"
+workshop_repo   : "http://github.com/BIDS/2016-01-14-berkeley"
+workshop_site   : "http://BIDS.github.io/2016-01-14-berkeley"
 #--------------------------------------------------------------------------------
 # Standard Software Carpentry settings - should not need to be modified.
 #--------------------------------------------------------------------------------

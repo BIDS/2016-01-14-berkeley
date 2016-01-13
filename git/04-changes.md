@@ -167,7 +167,7 @@ $ cat mars.txt
 ~~~
 ~~~ {.output}
 Cold and dry, but everything is my favorite color
-The two moons may be a problem for Wolfman
+The two moons may be a problem for Wolfwoman
 ~~~
 
 When we run `git status` now,
@@ -208,7 +208,7 @@ index df0654a..315bf3a 100644
 +++ b/mars.txt
 @@ -1 +1,2 @@
  Cold and dry, but everything is my favorite color
-+The two moons may be a problem for Wolfman
++The two moons may be a problem for Wolfwoman
 ~~~
 
 The output is cryptic because
@@ -230,7 +230,7 @@ If we break it down into pieces:
 After reviewing our change, it's time to commit it:
 
 ~~~ {.bash}
-$ git commit -m "Add concerns about effects of Mars' moons on Wolfman"
+$ git commit -m "Add concerns about effects of Mars' moons on Wolfwoman"
 $ git status
 ~~~
 ~~~ {.output}
@@ -250,10 +250,10 @@ Let's fix that:
 
 ~~~ {.bash}
 $ git add mars.txt
-$ git commit -m "Add concerns about effects of Mars' moons on Wolfman"
+$ git commit -m "Add concerns about effects of Mars' moons on Wolfwoman"
 ~~~
 ~~~ {.output}
-[master 34961b1] Add concerns about effects of Mars' moons on Wolfman
+[master 34961b1] Add concerns about effects of Mars' moons on Wolfwoman
  1 file changed, 1 insertion(+)
 ~~~
 
@@ -307,7 +307,7 @@ $ cat mars.txt
 ~~~
 ~~~ {.output}
 Cold and dry, but everything is my favorite color
-The two moons may be a problem for Wolfman
+The two moons may be a problem for Wolfwoman
 But the Mummy will appreciate the lack of humidity
 ~~~
 ~~~ {.bash}
@@ -320,7 +320,7 @@ index 315bf3a..b36abfd 100644
 +++ b/mars.txt
 @@ -1,2 +1,3 @@
  Cold and dry, but everything is my favorite color
- The two moons may be a problem for Wolfman
+ The two moons may be a problem for Wolfwoman
 +But the Mummy will appreciate the lack of humidity
 ~~~
 
@@ -352,7 +352,7 @@ index 315bf3a..b36abfd 100644
 +++ b/mars.txt
 @@ -1,2 +1,3 @@
  Cold and dry, but everything is my favorite color
- The two moons may be a problem for Wolfman
+ The two moons may be a problem for Wolfwoman
 +But the Mummy will appreciate the lack of humidity
 ~~~
 
@@ -395,7 +395,7 @@ commit 34961b159c27df3b475cfe4415d94a6d1fcd064d
 Author: Vlad Dracula <vlad@tran.sylvan.ia>
 Date:   Thu Aug 22 10:07:21 2013 -0400
 
-    Add concerns about effects of Mars' moons on Wolfman
+    Add concerns about effects of Mars' moons on Wolfwoman
 
 commit f22b25e3233b4645dabd0d81e651fe074bd8e73b
 Author: Vlad Dracula <vlad@tran.sylvan.ia>

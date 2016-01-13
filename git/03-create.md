@@ -64,7 +64,7 @@ nothing to commit (create/copy files and use "git add" to track)
 > ## Places to Create Git Repositories {.challenge}
 >
 > Dracula starts a new project, `moons`, related to his `planets` project.
-> Despite Wolfman's concerns, he enters the following sequence of commands to
+> Despite Wolfwoman's concerns, he enters the following sequence of commands to
 > create one Git repository inside another:
 > 
 > ~~~ {.bash}

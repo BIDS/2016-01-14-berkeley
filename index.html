@@ -13,7 +13,7 @@ enddate: "2016-01-15"                                           # use YYYY-MM-DD
 instructor: ["Katy Huff, Jessica Mizzi, Rachel Slaybaugh, Rochelle Terman"]    # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Chris Holdgraf", "Kunal Marwaha", "Kelly Rowland", "Daniel Soto", "Jens von Der Linden"]         # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: ["bids@berkeley.edu"]                                  # contact email address for workshop organizer, such as "grace@hopper.org"
-etherpad:                                                       # optional (insert the URL for your Etherpad if you're using one)
+etherpad: ["https://bids.hackpad.com/ep/group/mbBfdvafR6M"]     # optional (insert the URL for your Hackpad if you're using one)
 eventbrite:                                                     # optional (insert the alphanumeric key for Eventbrite registration, e.g., "1234567890AB")
 ---
 <!--
@@ -173,9 +173,9 @@ eventbrite:                                                     # optional (inse
 
   At `_misc/etherpad.txt` you will find a template for the etherpad.
 
-  Display the Etherpad for the workshop.  You can set this up in
+  Display the Hackpad for the workshop.  You can set this up in
   advance or on the first day; either way, make sure you push changes
-  to GitHub after you have its URL.  To create an Etherpad, go to
+  to GitHub after you have its URL.  To create an Hackpad, go to
 
       http://pad.software-carpentry.org/YYYY-MM-DD-site
 
@@ -184,9 +184,9 @@ eventbrite:                                                     # optional (inse
 -->
 {% if page.etherpad %}
 <p>
-  <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
+  <strong>Hackpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
   <br/>
-  We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
+  We will use this Hackpad space for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
 

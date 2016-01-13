@@ -24,7 +24,7 @@ index 315bf3a..b36abfd 100644
 +++ b/mars.txt
 @@ -1,2 +1,3 @@
  Cold and dry, but everything is my favorite color
- The two moons may be a problem for Wolfman
+ The two moons may be a problem for Wolfwoman
 +But the Mummy will appreciate the lack of humidity
 ~~~
 ~~~ {.bash}
@@ -37,7 +37,7 @@ index df0654a..b36abfd 100644
 +++ b/mars.txt
 @@ -1 +1,3 @@
  Cold and dry, but everything is my favorite color
-+The two moons may be a problem for Wolfman
++The two moons may be a problem for Wolfwoman
 +But the Mummy will appreciate the lack of humidity
 ~~~
 
@@ -70,7 +70,7 @@ index df0654a..b36abfd 100644
 +++ b/mars.txt
 @@ -1 +1,3 @@
  Cold and dry, but everything is my favorite color
-+The two moons may be a problem for Wolfman
++The two moons may be a problem for Wolfwoman
 +But the Mummy will appreciate the lack of humidity
 ~~~
 
@@ -88,7 +88,7 @@ index df0654a..b36abfd 100644
 +++ b/mars.txt
 @@ -1 +1,3 @@
  Cold and dry, but everything is my favorite color
-+The two moons may be a problem for Wolfman
++The two moons may be a problem for Wolfwoman
 +But the Mummy will appreciate the lack of humidity
 ~~~
 
@@ -132,7 +132,7 @@ $ cat mars.txt
 ~~~
 ~~~ {.output}
 Cold and dry, but everything is my favorite color
-The two moons may be a problem for Wolfman
+The two moons may be a problem for Wolfwoman
 But the Mummy will appreciate the lack of humidity
 ~~~
 
@@ -193,7 +193,7 @@ moving backward and forward in time becomes much easier.
 >
 > Jennifer has made changes to the Python script that she has been working on for weeks, and the
 > modifications she made this morning "broke" the script and it no longer runs. She has spent
-> ~ 1hr trying to fix it, with no luck...
+> ~1hr trying to fix it, with no luck...
 >
 > Luckily, she has been keeping track of her project's versions using Git! Which commands below will
 > let her recover the last committed version of her Python script called

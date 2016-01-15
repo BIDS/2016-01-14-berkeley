@@ -104,3 +104,9 @@ by acting as a shareable electronic lab notebook for computational work:
 > using only what they can find in your papers or on the web.
 > Try to do the same for one of their results,
 > then try to do it for a result from a lab you work with.
+
+> ## Reproducibility Checklist {.callout}
+>
+> [This short article](http://www.bitss.org/2015/12/31/science-is-show-me-not-trust-me/) 
+> by [Philip Stark] (http://www.stat.berkeley.edu/~stark/) provides a good
+> checklist for guiding the reproducibility of your work.

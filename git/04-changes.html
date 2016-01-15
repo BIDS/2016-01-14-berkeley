@@ -104,7 +104,7 @@ Date:   Thu Aug 22 09:51:46 2013 -0400
 <pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">nano</span> mars.txt
 $ <span class="kw">cat</span> mars.txt</code></pre>
 <pre class="output"><code>Cold and dry, but everything is my favorite color
-The two moons may be a problem for Wolfman</code></pre>
+The two moons may be a problem for Wolfwoman</code></pre>
 <p>When we run <code>git status</code> now, it tells us that a file it already knows about has been modified:</p>
 <pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">git</span> status</code></pre>
 <pre class="output"><code># On branch master
@@ -123,7 +123,7 @@ index df0654a..315bf3a 100644
 +++ b/mars.txt
 @@ -1 +1,2 @@
  Cold and dry, but everything is my favorite color
-+The two moons may be a problem for Wolfman</code></pre>
++The two moons may be a problem for Wolfwoman</code></pre>
 <p>The output is cryptic because it is actually a series of commands for tools like editors and <code>patch</code> telling them how to reconstruct one file given the other. If we break it down into pieces:</p>
 <ol style="list-style-type: decimal">
 <li>The first line tells us that Git is producing output similar to the Unix <code>diff</code> command comparing the old and new versions of the file.</li>
@@ -132,7 +132,7 @@ index df0654a..315bf3a 100644
 <li>The remaining lines are the most interesting, they show us the actual differences and the lines on which they occur. In particular, the <code>+</code> markers in the first column show where we have added lines.</li>
 </ol>
 <p>After reviewing our change, it’s time to commit it:</p>
-<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">git</span> commit -m <span class="st">&quot;Add concerns about effects of Mars&#39; moons on Wolfman&quot;</span>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">git</span> commit -m <span class="st">&quot;Add concerns about effects of Mars&#39; moons on Wolfwoman&quot;</span>
 $ <span class="kw">git</span> status</code></pre>
 <pre class="output"><code># On branch master
 # Changes not staged for commit:
@@ -144,8 +144,8 @@ $ <span class="kw">git</span> status</code></pre>
 no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</code></pre>
 <p>Whoops: Git won’t commit because we didn’t use <code>git add</code> first. Let’s fix that:</p>
 <pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">git</span> add mars.txt
-$ <span class="kw">git</span> commit -m <span class="st">&quot;Add concerns about effects of Mars&#39; moons on Wolfman&quot;</span></code></pre>
-<pre class="output"><code>[master 34961b1] Add concerns about effects of Mars&#39; moons on Wolfman
+$ <span class="kw">git</span> commit -m <span class="st">&quot;Add concerns about effects of Mars&#39; moons on Wolfwoman&quot;</span></code></pre>
+<pre class="output"><code>[master 34961b1] Add concerns about effects of Mars&#39; moons on Wolfwoman
  1 file changed, 1 insertion(+)</code></pre>
 <p>Git insists that we add files to the set we want to commit before actually committing anything because we may not want to commit everything at once. For example, suppose we’re adding a few citations to our supervisor’s work to our thesis. We might want to commit those additions, and the corresponding addition to the bibliography, but <em>not</em> commit the work we’re doing on the conclusion (which we haven’t finished yet).</p>
 <p>To allow for this, Git has a special <em>staging area</em> where it keeps track of things that have been added to the current <a href="reference.html#change-set">change set</a> but not yet committed.</p>
@@ -164,7 +164,7 @@ $ <span class="kw">git</span> commit -m <span class="st">&quot;Add concerns abou
 <pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">nano</span> mars.txt
 $ <span class="kw">cat</span> mars.txt</code></pre>
 <pre class="output"><code>Cold and dry, but everything is my favorite color
-The two moons may be a problem for Wolfman
+The two moons may be a problem for Wolfwoman
 But the Mummy will appreciate the lack of humidity</code></pre>
 <pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">git</span> diff</code></pre>
 <pre class="output"><code>diff --git a/mars.txt b/mars.txt
@@ -173,7 +173,7 @@ index 315bf3a..b36abfd 100644
 +++ b/mars.txt
 @@ -1,2 +1,3 @@
  Cold and dry, but everything is my favorite color
- The two moons may be a problem for Wolfman
+ The two moons may be a problem for Wolfwoman
 +But the Mummy will appreciate the lack of humidity</code></pre>
 <p>So far, so good: we’ve added one line to the end of the file (shown with a <code>+</code> in the first column). Now let’s put that change in the staging area and see what <code>git diff</code> reports:</p>
 <pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">git</span> add mars.txt
@@ -186,7 +186,7 @@ index 315bf3a..b36abfd 100644
 +++ b/mars.txt
 @@ -1,2 +1,3 @@
  Cold and dry, but everything is my favorite color
- The two moons may be a problem for Wolfman
+ The two moons may be a problem for Wolfwoman
 +But the Mummy will appreciate the lack of humidity</code></pre>
 <p>it shows us the difference between the last committed change and what’s in the staging area. Let’s save our changes:</p>
 <pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">git</span> commit -m <span class="st">&quot;Discuss concerns about Mars&#39; climate for Mummy&quot;</span></code></pre>
@@ -208,7 +208,7 @@ commit 34961b159c27df3b475cfe4415d94a6d1fcd064d
 Author: Vlad Dracula &lt;vlad@tran.sylvan.ia&gt;
 Date:   Thu Aug 22 10:07:21 2013 -0400
 
-    Add concerns about effects of Mars&#39; moons on Wolfman
+    Add concerns about effects of Mars&#39; moons on Wolfwoman
 
 commit f22b25e3233b4645dabd0d81e651fe074bd8e73b
 Author: Vlad Dracula &lt;vlad@tran.sylvan.ia&gt;

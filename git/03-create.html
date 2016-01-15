@@ -38,10 +38,13 @@
 </ul>
 </div>
 </section>
-<p>Once Git is configured, we can start using it. Let’s create a directory for our work and then move into that directory:</p>
+<p>Once Git is configured, we can start using it. 
+Let's create a directory for our work and then move into that directory.
+It's best to create the directory outside of your workshop repository.
+Select a different location to work in (that you will remember), navigate there, and:</p>
 <pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">mkdir</span> planets
 $ <span class="kw">cd</span> planets</code></pre>
-<p>Then we tell Git to make <code>planets</code> a <a href="reference.html#repository">repository</a>—a place where Git can store versions of our files:</p>
+<p>Then we tell Git to locally make <code>planets</code> a <a href="reference.html#repository">repository</a>—a place where Git can store versions of our files:</p>
 <pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">git</span> init</code></pre>
 <p>If we use <code>ls</code> to show the directory’s contents, it appears that nothing has changed:</p>
 <pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">ls</span></code></pre>
@@ -61,7 +64,7 @@ nothing to commit (create/copy files and use &quot;git add&quot; to track)</code
 <h2><span class="glyphicon glyphicon-pencil"></span>Places to Create Git Repositories</h2>
 </div>
 <div class="panel-body">
-<p>Dracula starts a new project, <code>moons</code>, related to his <code>planets</code> project. Despite Wolfman’s concerns, he enters the following sequence of commands to create one Git repository inside another:</p>
+<p>Dracula starts a new project, <code>moons</code>, related to his <code>planets</code> project. Despite Wolfwoman’s concerns, he enters the following sequence of commands to create one Git repository inside another:</p>
 <pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">cd</span>             <span class="co"># return to home directory</span>
 <span class="kw">mkdir</span> planets  <span class="co"># make a new directory planets</span>
 <span class="kw">cd</span> planets     <span class="co"># go into planets</span>

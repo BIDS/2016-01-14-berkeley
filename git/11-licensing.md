@@ -78,7 +78,7 @@ reports, manuscripts), most licenses designed for software are _not_
 suitable.
 
 * **Data:** In most jurisdictions most types of data (with possibly
-  the exception of photos, medical images, etc) are considered facts
+  the exception of photos, medical images, etc.) are considered facts
   of nature, and are hence not eligible for copyright
   protection. Therefore, using a license, which by definition asserts
   copyright, to signal social or scholarly expectations for

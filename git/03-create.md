@@ -10,14 +10,16 @@ minutes: 10
 
 Once Git is configured,
 we can start using it.
-Let's create a directory for our work and then move into that directory:
+Let's create a directory for our work and then move into that directory.
+It's best to create the directory outside of your workshop repository.
+Select a different location to work in (that you will remember), navigate there, and:
 
 ~~~ {.bash}
 $ mkdir planets
 $ cd planets
 ~~~
 
-Then we tell Git to make `planets` a [repository](reference.html#repository)&mdash;a place where
+Then we tell Git to locally make `planets` a [repository](reference.html#repository)&mdash;a place where
 Git can store versions of our files:
 
 ~~~ {.bash}
@@ -62,7 +64,7 @@ nothing to commit (create/copy files and use "git add" to track)
 > ## Places to Create Git Repositories {.challenge}
 >
 > Dracula starts a new project, `moons`, related to his `planets` project.
-> Despite Wolfman's concerns, he enters the following sequence of commands to
+> Despite Wolfwoman's concerns, he enters the following sequence of commands to
 > create one Git repository inside another:
 > 
 > ~~~ {.bash}

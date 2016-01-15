@@ -25,7 +25,7 @@ $ cat mars.txt
 ~~~
 ~~~ {.output}
 Cold and dry, but everything is my favorite color
-The two moons may be a problem for Wolfman
+The two moons may be a problem for Wolfwoman
 But the Mummy will appreciate the lack of humidity
 ~~~
 
@@ -37,9 +37,9 @@ $ cat mars.txt
 ~~~
 ~~~ {.output}
 Cold and dry, but everything is my favorite color
-The two moons may be a problem for Wolfman
+The two moons may be a problem for Wolfwoman
 But the Mummy will appreciate the lack of humidity
-This line added to Wolfman's copy
+This line added to Wolfwoman's copy
 ~~~
 
 and then push the change to GitHub:
@@ -75,7 +75,7 @@ $ cat mars.txt
 ~~~
 ~~~ {.output}
 Cold and dry, but everything is my favorite color
-The two moons may be a problem for Wolfman
+The two moons may be a problem for Wolfwoman
 But the Mummy will appreciate the lack of humidity
 We added a different line in the other copy
 ~~~
@@ -138,12 +138,12 @@ $ cat mars.txt
 ~~~
 ~~~ {.output}
 Cold and dry, but everything is my favorite color
-The two moons may be a problem for Wolfman
+The two moons may be a problem for Wolfwoman
 But the Mummy will appreciate the lack of humidity
 <<<<<<< HEAD
 We added a different line in the other copy
 =======
-This line added to Wolfman's copy
+This line added to Wolfwoman's copy
 >>>>>>> dabb4c8c450e8475aee9b14b4383acc99f42af1d
 ~~~
 
@@ -165,7 +165,7 @@ $ cat mars.txt
 ~~~
 ~~~ {.output}
 Cold and dry, but everything is my favorite color
-The two moons may be a problem for Wolfman
+The two moons may be a problem for Wolfwoman
 But the Mummy will appreciate the lack of humidity
 We removed the conflict on this line
 ~~~
@@ -237,7 +237,7 @@ $ cat mars.txt
 ~~~
 ~~~ {.output}
 Cold and dry, but everything is my favorite color
-The two moons may be a problem for Wolfman
+The two moons may be a problem for Wolfwoman
 But the Mummy will appreciate the lack of humidity
 We removed the conflict on this line
 ~~~

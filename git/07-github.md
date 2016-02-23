@@ -42,6 +42,10 @@ GitHub displays a page with a URL and some information on how to configure your 
 
 ![Creating a Repository on GitHub (Step 3)](fig/github-create-repo-03.png)
 
+*Note:* use the `HTTPS` version of the commant
+`https://github.com/username/planets.git` rather than the `SSH` version.
+
+
 This effectively does the following on GitHub's servers:
 
 ~~~ {.bash}
